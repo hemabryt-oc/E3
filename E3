@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E³ | Encouraging Excellence Early</title>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        :root {
+            --dark-bg: #050505;
+            --white: #ffffff;
+            --light-grey: #f8f9fa;
+            --accent-orange: #d35400;
+            --glass: rgba(255, 255, 255, 0.03);
+            --transition: all 0.5s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        html { scroll-behavior: smooth; }
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--dark-bg); color: var(--white); line-height: 1.6; overflow-x: hidden; }
+
+        /* --- NAVIGATION --- */
+        .navbar { display: flex; justify-content: space-between; align-items: center; padding: 20px 8%; background: rgba(5, 5, 5, 0.8); backdrop-filter: blur(15px); position: fixed; width: 100%; top: 0; z-index: 1000; border-bottom: 1px solid rgba(255,255,255,0.08); }
+        .logo { font-size: 1.8rem; font-weight: 800; color: var(--white); text-decoration: none; letter-spacing: -1px; }
+        nav a { color: #888; text-decoration: none; margin-left: 30px; font-size: 0.9rem; font-weight: 600; transition: 0.3s; }
+        nav a:hover { color: var(--accent-orange); }
+
+        /* --- HERO --- */
+        .hero { text-align: center; padding: 180px 20px 100px; max-width: 1100px; margin: 0 auto; position: relative; }
+        .hero h1 { font-size: clamp(3rem, 10vw, 6rem); font-weight: 800; line-height: 1; letter-spacing: -3px; margin-bottom: 20px; }
+        .hero .outline { -webkit-text-stroke: 1px #fff; color: transparent; }
+        .hero p { color: #888; font-size: 1.2rem; max-width: 650px; margin: 0 auto 40px; }
+
+        /* --- SERVICES SECTION --- */
+        .services-section { background-color: var(--light-grey); padding: 100px 5%; color: #111; border-radius: 50px 50px 0 0; }
+        .section-title { text-align: center; font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; margin-bottom: 60px; letter-spacing: -1px; }
+        .services-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 20px; max-width: 1200px; margin: 0 auto; }
+
+        .service-card { background: #fff; border-radius: 30px; overflow: hidden; box-shadow: 0 10px 40px rgba(0,0,0,0.03); cursor: pointer; transition: var(--transition); border: 1px solid #eee; }
+        .service-card:hover { transform: translateY(-10px); box-shadow: 0 30px 60px rgba(0,0,0,0.1); }
+        
+        .card-header { height: 220px; padding: 35px; display: flex; flex-direction: column; justify-content: flex-end; position: relative; background-size: cover; background-position: center; }
+        .card-header::after { content: ''; position: absolute; top: 0; left: 0; width: 100%; height: 100%; background: linear-gradient(0deg, rgba(0,0,0,0.9) 0%, transparent 100%); }
+        .card-header h3, .card-header p { position: relative; z-index: 2; color: #fff; }
+        .card-header h3 { font-size: 1.5rem; font-weight: 800; margin-bottom: 5px; }
+        .card-header p { font-size: 0.9rem; opacity: 0.8; }
+
+        .dropdown-content { max-height: 0; opacity: 0; overflow: hidden; transition: var(--transition); padding: 0 30px; }
+        .service-card.active .dropdown-content { max-height: 400px; opacity: 1; padding: 30px; border-top: 1px solid #f1f1f1; }
+        
+        .drop-item { display: flex; justify-content: space-between; padding: 15px 20px; background: #f9f9f9; border-radius: 15px; text-decoration: none; color: #111; font-weight: 700; margin-bottom: 8px; transition: 0.3s; border: 1px solid transparent; }
+        .drop-item span { color: var(--accent-orange); }
+        .drop-item:hover { background: #111; color: #fff; border-color: var(--accent-orange); }
+
+        /* Image Classes */
+        .img-web { background-image: url('https://images.unsplash.com/photo-1547658719-da2b51169166?q=80&w=800'); }
+        .img-ai { background-image: url('https://images.unsplash.com/photo-1677442136019-21780ecad995?q=80&w=800'); }
+        .img-id { background-image: url('https://images.unsplash.com/photo-1611162617474-5b21e879e113?q=80&w=800'); }
+        .img-social { background-image: url('https://images.unsplash.com/photo-1496200186974-4293800e2c20?q=80&w=800'); }
+        .img-copy { background-image: url('https://images.unsplash.com/photo-1488190211105-8b0e65b80b4e?q=80&w=800'); }
+
+        /* --- ABOUT SECTION (The Storytelling) --- */
+        .about-section { padding: 120px 8%; background: #000; }
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: start; max-width: 1200px; margin: 0 auto; }
+        .about-content h2 { font-size: 3rem; font-weight: 800; margin-bottom: 30px; line-height: 1.1; }
+        .about-content h2 span { color: var(--accent-orange); }
+        .about-text { color: #888; font-size: 1.1rem; }
+        .about-text p { margin-bottom: 20px; }
+        .highlight-box { background: var(--glass); padding: 40px; border-radius: 30px; border: 1px solid rgba(255,255,255,0.1); }
+        .highlight-box h4 { color: var(--white); margin-bottom: 15px; font-size: 1.4rem; }
+        .highlight-box ul { list-style: none; }
+        .highlight-box li { margin-bottom: 12px; display: flex; align-items: center; gap: 10px; font-size: 0.95rem; }
+        .highlight-box li i { color: var(--accent-orange); }
+
+        /* --- CONTACT SECTION (Social Dropdown) --- */
+        .contact-section { padding: 100px 5%; text-align: center; background: var(--light-grey); color: #111; }
+        .social-dropdown { max-width: 500px; margin: 40px auto; position: relative; }
+        .social-trigger { background: #111; color: #fff; padding: 20px 40px; border-radius: 50px; font-weight: 800; cursor: pointer; display: flex; justify-content: center; align-items: center; gap: 15px; transition: 0.3s; }
+        .social-trigger:hover { background: var(--accent-orange); transform: scale(1.05); }
+        
+        .social-list { max-height: 0; opacity: 0; overflow: hidden; transition: var(--transition); background: #fff; margin-top: 15px; border-radius: 25px; box-shadow: 0 20px 50px rgba(0,0,0,0.1); display: grid; grid-template-columns: 1fr 1fr; gap: 10px; padding: 0 15px; }
+        .social-dropdown.active .social-list { max-height: 400px; opacity: 1; padding: 20px; }
+        
+        .social-item { display: flex; align-items: center; gap: 10px; padding: 15px; border-radius: 15px; text-decoration: none; color: #111; font-weight: 700; transition: 0.3s; background: #f5f5f5; }
+        .social-item:hover { background: #111; color: #fff; }
+        .social-item i { font-size: 1.2rem; }
+        .fa-facebook { color: #1877F2; }
+        .fa-instagram { color: #E4405F; }
+        .fa-tiktok { color: #000000; }
+        .fa-whatsapp { color: #25D366; }
+
+        .footer { padding: 60px; text-align: center; font-size: 0.8rem; letter-spacing: 5px; color: #444; border-top: 1px solid rgba(255,255,255,0.05); }
+
+        /* --- MOBILE OPTIMIZATION --- */
+        @media (max-width: 768px) {
+            .navbar { padding: 15px 5%; }
+            .navbar nav { display: none; }
+            .hero h1 { font-size: 3.5rem; letter-spacing: -2px; }
+            .about-grid { grid-template-columns: 1fr; gap: 40px; }
+            .about-content h2 { font-size: 2.2rem; }
+            .services-grid { grid-template-columns: 1fr; }
+            .social-list { grid-template-columns: 1fr; }
+            .about-section { padding: 80px 5%; }
+        }
+    </style>
+</head>
+<body>
+
+    <header class="navbar">
+        <a href="#" class="logo">E³</a>
+        <nav>
+            <a href="#services">Services</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h1>Encouraging <span class="outline">Excellence</span> Early</h1>
+        <p>We take your business from “existing” to “positioned” with premium digital infrastructure.</p>
+        <a href="#contact" class="btn-primary">Build Your Movement</a>
+    </section>
+
+    <section class="services-section" id="services">
+        <div class="container">
+            <h2 class="section-title">The E³ Solutions</h2>
+            <div class="services-grid">
+                
+                <div class="service-card" onclick="this.classList.toggle('active')">
+                    <div class="card-header img-web">
+                        <h3>Web Development</h3>
+                        <p>Your functional digital home.</p>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="https://wa.me/2347042776167?text=I%20need%20a%20Static%20Web%20Page" class="drop-item">Static Web Page <span>₦50k+</span></a>
+                        <a href="https://wa.me/2347042776167?text=I%20need%20a%20Dynamic%20Web%20Page" class="drop-item">Dynamic Web Page <span>₦100k+</span></a>
+                        <a href="https://wa.me/2347042776167?text=I%20need%20an%20Ecommerce%20Store" class="drop-item">E-commerce Store <span>₦150k+</span></a>
+                    </div>
+                </div>
+
+                <div class="service-card" onclick="this.classList.toggle('active')">
+                    <div class="card-header img-ai">
+                        <h3>AI Automation</h3>
+                        <p>Systems that work while you sleep.</p>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="https://wa.me/2347042776167?text=AI%20Automation%20Inquiry" class="drop-item">Workflow Automation <span>Inquire</span></a>
+                        <a href="https://wa.me/2347042776167?text=WhatsApp%20Bot%20Inquiry" class="drop-item">WhatsApp AI Bots <span>Inquire</span></a>
+                    </div>
+                </div>
+
+                <div class="service-card" onclick="this.classList.toggle('active')">
+                    <div class="card-header img-id">
+                        <h3>Digital Identity</h3>
+                        <p>Branding that engineering perception.</p>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="https://wa.me/2347042776167?text=NFC%20Card%20Inquiry" class="drop-item">NFC Smart Cards <span>Premium</span></a>
+                        <a href="https://wa.me/2347042776167?text=Brand%20Design%20Inquiry" class="drop-item">Brand Identity <span>Full Suite</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about-section" id="about">
+        <div class="about-grid">
+            <div class="about-content">
+                <h2>Perception is the <span>Gate to Opportunity.</span></h2>
+                <div class="about-text">
+                    <p>In a crowded digital world, attention goes to what looks <strong>structured</strong>, not just what is capable. Most SMEs fail because they lack presentation and positioning.</p>
+                    <p>E³ SME exists to close this gap. We don’t just build services; we build identity, structure, and digital authority.</p>
+                </div>
+            </div>
+            <div class="highlight-box">
+                <h4>Why Work With Us?</h4>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> We turn skills into services.</li>
+                    <li><i class="fas fa-check-circle"></i> We turn services into brands.</li>
+                    <li><i class="fas fa-check-circle"></i> Professional, Intentional, Scalable.</li>
+                    <li><i class="fas fa-check-circle"></i> Structured growth community.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+        <h2 class="section-title">Ready to Start?</h2>
+        <p>Connect with the E³ ecosystem on your preferred platform.</p>
+        
+        <div class="social-dropdown" id="socialTrigger">
+            <div class="social-trigger" onclick="document.getElementById('socialTrigger').classList.toggle('active')">
+                <span>Connect with E³ SME</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+            <div class="social-list">
+                <a href="https://wa.me/2347042776167" class="social-item">
+                    <i class="fab fa-whatsapp"></i> WhatsApp
+                </a>
+                <a href="https://www.instagram.com/encourage.excellence.early/" class="social-item">
+                    <i class="fab fa-instagram"></i> Instagram
+                </a>
+                <a href="https://web.facebook.com/profile.php?id=61570798894713" class="social-item">
+                    <i class="fab fa-facebook"></i> Facebook
+                </a>
+                <a href="#" class="social-item">
+                    <i class="fab fa-tiktok"></i> TikTok
+                </a>
+            </div>
+        </div>
+        <p style="font-size: 0.9rem; color: #888;">Abuja, Nigeria • Serving Globally</p>
+    </section>
+
+    <footer class="footer">
+        <p>ENCOURAGING EXCELLENCE EARLY © 2026</p>
+    </footer>
+
+    <script>
+        // Stop dropdown items from closing the card when clicked
+        document.querySelectorAll('.drop-item, .social-item').forEach(item => {
+            item.addEventListener('click', (e) => e.stopPropagation());
+        });
+    </script>
+</body>
+</html>

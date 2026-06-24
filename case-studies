@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="E³ Case Studies — Real results from real businesses transformed by digital infrastructure.">
+    <title>Case Studies — E³</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">E<span class="gold">³</span></div>
+            <div class="preloader-line"></div>
+            <p class="preloader-text">Encouraging Excellence Early</p>
+        </div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">E<span class="gold">³</span><span class="superscript">SME</span></a>
+            
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="industries.html">Industries</a>
+                <a href="case-studies.html" class="active">Case Studies</a>
+                <a href="insights.html">Insights</a>
+                <a href="contact.html" class="nav-cta">Contact</a>
+            </nav>
+            
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== MOBILE NAV ===== -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-inner">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="solutions.html">Solutions</a>
+            <a href="industries.html">Industries</a>
+            <a href="case-studies.html" class="active">Case Studies</a>
+            <a href="insights.html">Insights</a>
+            <a href="contact.html" class="mobile-cta">Contact →</a>
+        </div>
+    </div>
+
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+        <div class="page-hero-bg">
+        <div class="horizon-grid"></div>
+        <svg class="lattice-svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <line class="lattice-line soft" x1="834.8" y1="297.6" x2="1092.4" y2="260.8" style="animation-delay:0.00s, 0.00s"/>
+    <line class="lattice-line soft" x1="114.2" y1="407.3" x2="409.9" y2="505.6" style="animation-delay:0.18s, 0.18s"/>
+    <line class="lattice-line soft" x1="834.8" y1="297.6" x2="756.3" y2="621.0" style="animation-delay:0.36s, 0.36s"/>
+    <line class="lattice-line" x1="756.3" y1="621.0" x2="674.1" y2="817.5" style="animation-delay:0.54s, 0.54s"/>
+    <line class="lattice-line" x1="1092.4" y1="260.8" x2="1283.0" y2="403.1" style="animation-delay:0.72s, 0.72s"/>
+    <line class="lattice-line soft" x1="1283.0" y1="403.1" x2="1296.7" y2="734.9" style="animation-delay:0.90s, 0.90s"/>
+    <line class="lattice-line soft" x1="756.3" y1="621.0" x2="1032.2" y2="638.5" style="animation-delay:1.08s, 1.08s"/>
+    <line class="lattice-line soft" x1="1032.2" y1="638.5" x2="1296.7" y2="734.9" style="animation-delay:1.26s, 1.26s"/>
+    <circle class="lattice-node" cx="114.2" cy="407.3" r="2.5" style="animation-delay:0.00s"/>
+    <circle class="lattice-node" cx="834.8" cy="297.6" r="2.5" style="animation-delay:0.40s"/>
+    <circle class="lattice-node dim" cx="1092.4" cy="260.8" r="3.0" style="animation-delay:0.80s"/>
+    <circle class="lattice-node dim" cx="1283.0" cy="403.1" r="2.5" style="animation-delay:1.20s"/>
+    <circle class="lattice-node" cx="409.9" cy="505.6" r="2.8" style="animation-delay:1.60s"/>
+    <circle class="lattice-node amber" cx="756.3" cy="621.0" r="2.7" style="animation-delay:2.00s"/>
+    <circle class="lattice-node" cx="1032.2" cy="638.5" r="3.1" style="animation-delay:2.40s"/>
+    <circle class="lattice-node amber" cx="197.5" cy="793.7" r="2.1" style="animation-delay:2.80s"/>
+    <circle class="lattice-node" cx="674.1" cy="817.5" r="2.3" style="animation-delay:3.20s"/>
+    <circle class="lattice-node" cx="1296.7" cy="734.9" r="3.0" style="animation-delay:0.00s"/>
+    </svg>
+        <div class="light-shaft shaft-1"></div>
+        <div class="light-shaft shaft-2"></div>
+        <div class="grain"></div>
+        <div class="hud-panel hud-1"><span class="hud-label">Avg Improvement</span><span class="hud-value cyan-text">65%</span></div>
+        <div class="hud-panel hud-2"><span class="hud-label">Clients Satisfied</span><span class="hud-value amber-text">98%</span></div>
+        <div class="vignette"></div>
+    </div>
+        <div class="container">
+            <div class="page-hero-content">
+                <span class="page-hero-badge">✦ Results</span>
+                <h1 class="page-hero-title">Real <span class="gold">Results</span>, Real <span class="gold">Impact</span></h1>
+                <p class="page-hero-sub">
+                    See how E³ has transformed businesses across industries with digital infrastructure, AI, and intelligent systems.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION: CASE STUDY 1 ===== -->
+    <section class="section case-study" id="healthcare">
+        <div class="container">
+            <div class="case-study-content">
+                <span class="case-study-tag">Healthcare</span>
+                <div class="case-study-grid">
+                    <div class="case-study-header">
+                        <h2>Pharmacy AI Assistant</h2>
+                        <p class="case-study-subtitle">How an AI-powered chatbot transformed customer engagement for a pharmacy chain.</p>
+                    </div>
+                    
+                    <div class="case-study-metrics">
+                        <div class="metric">
+                            <span class="metric-number">80%</span>
+                            <span class="metric-label">Reduction in Response Time</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-number">3x</span>
+                            <span class="metric-label">Increase in Customer Engagement</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-number">24/7</span>
+                            <span class="metric-label">AI-Powered Customer Support</span>
+                        </div>
+                    </div>
+
+                    <div class="case-study-details">
+                        <div class="case-block">
+                            <h4>The Challenge</h4>
+                            <p>A growing pharmacy chain was struggling with high customer inquiry volumes. Their team was overwhelmed with medication questions, prescription refill requests, and general inquiries. Customers often waited hours for responses, leading to frustration and lost business.</p>
+                        </div>
+                        <div class="case-block gold-bg">
+                            <h4>The E³ Solution</h4>
+                            <p>We built an intelligent AI chatbot integrated with WhatsApp and the pharmacy's website. The system could handle medication inquiries, process prescription refill requests, provide dosage information, and escalate complex questions to human pharmacists.</p>
+                            <ul>
+                                <li>Natural language processing for medication queries</li>
+                                <li>Automated prescription refill processing</li>
+                                <li>24/7 availability</li>
+                                <li>Seamless escalation to human support</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h4>The Result</h4>
+                            <p>Response time dropped from hours to seconds. Customer engagement increased threefold. The pharmacy team was freed from repetitive inquiries and could focus on high-value patient care. Customer satisfaction scores improved significantly.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study-testimonial">
+                        <span class="testimonial-quote">"</span>
+                        <blockquote>
+                            The AI system has revolutionized how we interact with our customers. We're now able to serve more people, faster, without compromising on quality.
+                        </blockquote>
+                        <cite>— Pharmacy Operations Manager</cite>
+                    </div>
+
+                    <a href="contact.html" class="btn-primary case-cta">
+                        <span class="btn-text">Build Your AI Solution</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION: CASE STUDY 2 ===== -->
+    <section class="section case-study alt-bg" id="education">
+        <div class="container">
+            <div class="case-study-content">
+                <span class="case-study-tag">Education</span>
+                <div class="case-study-grid">
+                    <div class="case-study-header">
+                        <h2>School Management Portal</h2>
+                        <p class="case-study-subtitle">A comprehensive digital system connecting parents, teachers, and administrators.</p>
+                    </div>
+                    
+                    <div class="case-study-metrics">
+                        <div class="metric">
+                            <span class="metric-number">500+</span>
+                            <span class="metric-label">Students Managed</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-number">85%</span>
+                            <span class="metric-label">Parent Satisfaction Increase</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-number">60%</span>
+                            <span class="metric-label">Reduction in Admin Work</span>
+                        </div>
+                    </div>
+
+                    <div class="case-study-details">
+                        <div class="case-block">
+                            <h4>The Challenge</h4>
+                            <p>A growing school with over 500 students was struggling with communication gaps between parents and teachers. Academic tracking was manual, report cards took weeks to produce, and parents had no real-time visibility into their children's progress.</p>
+                        </div>
+                        <div class="case-block gold-bg">
+                            <h4>The E³ Solution</h4>
+                            <p>We built a comprehensive school management portal with role-based access for administrators, teachers, parents, and students. The system included attendance tracking, grade management, parent-teacher communication, and automated report generation.</p>
+                            <ul>
+                                <li>Real-time attendance and grade tracking</li>
+                                <li>Parent-teacher communication system</li>
+                                <li>Automated report card generation</li>
+                                <li>Student performance analytics</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h4>The Result</h4>
+                            <p>Parent satisfaction increased by 85%. Administrative work was reduced by 60%. Report cards that took weeks now generate instantly. Communication between parents and teachers is seamless and transparent.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study-testimonial">
+                        <span class="testimonial-quote">"</span>
+                        <blockquote>
+                            The portal has transformed how we run our school. Parents are more engaged, teachers are more efficient, and our administrative team can focus on what matters — student success.
+                        </blockquote>
+                        <cite>— School Administrator</cite>
+                    </div>
+
+                    <a href="contact.html" class="btn-primary case-cta">
+                        <span class="btn-text">Build Your School Portal</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION: CASE STUDY 3 ===== -->
+    <section class="section case-study" id="retail">
+        <div class="container">
+            <div class="case-study-content">
+                <span class="case-study-tag">Retail</span>
+                <div class="case-study-grid">
+                    <div class="case-study-header">
+                        <h2>E-commerce Growth System</h2>
+                        <p class="case-study-subtitle">A custom e-commerce platform that drove 150% growth in online sales.</p>
+                    </div>
+                    
+                    <div class="case-study-metrics">
+                        <div class="metric">
+                            <span class="metric-number">150%</span>
+                            <span class="metric-label">Increase in Online Sales</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-number">40%</span>
+                            <span class="metric-label">Higher Conversion Rate</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-number">10,000+</span>
+                            <span class="metric-label">Monthly Visitors</span>
+                        </div>
+                    </div>
+
+                    <div class="case-study-details">
+                        <div class="case-block">
+                            <h4>The Challenge</h4>
+                            <p>A retail business had an outdated, slow website that was costing them sales. The platform was difficult to update, had poor mobile experience, and lacked the features needed to compete with modern e-commerce stores.</p>
+                        </div>
+                        <div class="case-block gold-bg">
+                            <h4>The E³ Solution</h4>
+                            <p>We designed and built a modern, mobile-first e-commerce platform with seamless payment integration, inventory management, customer accounts, and marketing automation. The system was designed for speed, conversions, and ease of use.</p>
+                            <ul>
+                                <li>Mobile-first, lightning-fast design</li>
+                                <li>Stripe payment integration</li>
+                                <li>Inventory management system</li>
+                                <li>Email marketing automation</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h4>The Result</h4>
+                            <p>Online sales grew by 150% within the first 3 months. Conversion rates improved by 40%. The business now reaches over 10,000 monthly visitors and continues to grow.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study-testimonial">
+                        <span class="testimonial-quote">"</span>
+                        <blockquote>
+                            Our new e-commerce platform has completely transformed our business. We're reaching more customers, selling more products, and operating more efficiently than ever before.
+                        </blockquote>
+                        <cite>— Retail Business Owner</cite>
+                    </div>
+
+                    <a href="contact.html" class="btn-primary case-cta">
+                        <span class="btn-text">Build Your E-commerce Platform</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION: CASE STUDY 4 ===== -->
+    <section class="section case-study alt-bg" id="real-estate">
+        <div class="container">
+            <div class="case-study-content">
+                <span class="case-study-tag">Real Estate</span>
+                <div class="case-study-grid">
+                    <div class="case-study-header">
+                        <h2>Real Estate CRM System</h2>
+                        <p class="case-study-subtitle">A custom CRM that streamlined lead management and client relationships.</p>
+                    </div>
+                    
+                    <div class="case-study-metrics">
+                        <div class="metric">
+                            <span class="metric-number">200+</span>
+                            <span class="metric-label">Active Leads Managed</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-number">70%</span>
+                            <span class="metric-label">Faster Follow-up Time</span>
+                        </div>
+                        <div class="metric">
+                            <span class="metric-number">45%</span>
+                            <span class="metric-label">Increase in Conversions</span>
+                        </div>
+                    </div>
+
+                    <div class="case-study-details">
+                        <div class="case-block">
+                            <h4>The Challenge</h4>
+                            <p>A growing real estate agency was losing leads because they couldn't track them effectively. Their team was using spreadsheets and manual processes, leading to missed follow-ups, lost opportunities, and inefficient operations.</p>
+                        </div>
+                        <div class="case-block gold-bg">
+                            <h4>The E³ Solution</h4>
+                            <p>We built a comprehensive CRM system specifically for real estate. The platform automated lead capture, tracked all client interactions, scheduled follow-ups, and provided real-time analytics on pipeline performance.</p>
+                            <ul>
+                                <li>Automated lead capture and tracking</li>
+                                <li>Interaction history and notes</li>
+                                <li>Automated follow-up scheduling</li>
+                                <li>Pipeline and performance analytics</li>
+                            </ul>
+                        </div>
+                        <div class="case-block">
+                            <h4>The Result</h4>
+                            <p>Follow-up time was reduced by 70%. Lead conversion increased by 45%. The agency now manages over 200 active leads efficiently and has grown their business significantly.</p>
+                        </div>
+                    </div>
+
+                    <div class="case-study-testimonial">
+                        <span class="testimonial-quote">"</span>
+                        <blockquote>
+                            The CRM has been a game-changer for our agency. We're now able to manage more leads, close more deals, and grow our business in ways we couldn't before.
+                        </blockquote>
+                        <cite>— Real Estate Agency Director</cite>
+                    </div>
+
+                    <a href="contact.html" class="btn-primary case-cta">
+                        <span class="btn-text">Build Your CRM System</span>
+                        <span class="btn-arrow">→</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION: RESULTS SUMMARY ===== -->
+    <section class="section section-results-summary">
+        <div class="container">
+            <div class="section-header center">
+                <span class="section-label">Collective Impact</span>
+                <h2 class="section-title">The E³ <span class="gold">Difference</span></h2>
+                <p class="section-desc">Across all our projects, we deliver measurable results that transform businesses.</p>
+            </div>
+
+            <div class="results-summary-grid">
+                <div class="result-item">
+                    <span class="result-number">50+</span>
+                    <span class="result-label">Projects Delivered</span>
+                </div>
+                <div class="result-item gold-bg">
+                    <span class="result-number">98%</span>
+                    <span class="result-label">Client Satisfaction</span>
+                </div>
+                <div class="result-item">
+                    <span class="result-number">85%</span>
+                    <span class="result-label">Average Efficiency Gain</span>
+                </div>
+                <div class="result-item gold-bg">
+                    <span class="result-number">100%</span>
+                    <span class="result-label">Custom Solutions</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION: CTA ===== -->
+    <section class="section section-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Be Our Next <span class="gold">Success Story</span></h2>
+                <p>Let's build the digital infrastructure that will transform your business.</p>
+                <a href="contact.html" class="btn-primary">
+                    <span class="btn-text">Start Your Project</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">E<span class="gold">³</span><span class="superscript">SME</span></a>
+                    <p>Encouraging Excellence Early — Building intelligent businesses for the digital age.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="solutions.html">Solutions</a>
+                    <a href="industries.html">Industries</a>
+                    <a href="case-studies.html">Case Studies</a>
+                    <a href="insights.html">Insights</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <a href="https://wa.me/2347042776167">WhatsApp</a>
+                    <a href="mailto:encourageexcellenceearly@gmail.com">Email</a>
+                    <a href="https://www.instagram.com/encourage.excellence.early">Instagram</a>
+                    <a href="https://web.facebook.com/profile.php?id=61570798894713">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 E³ SME — Encouraging Excellence Early</p>
+                <p>Abuja, Nigeria · Serving Globally</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOATING ===== -->
+    <div class="wa-float">
+        <a href="https://wa.me/2347042776167" target="_blank" aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+    </div>
+
+    <!-- ===== SINGLE JS ===== -->
+    <script src="assets/script.js"></script>
+</body>
+</html>

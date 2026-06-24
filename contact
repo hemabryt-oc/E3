@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+    <meta name="description" content="Contact E³ — Let's build intelligent digital infrastructure for your business.">
+    <title>Contact — E³</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+
+    <!-- ===== PRELOADER ===== -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-content">
+            <div class="preloader-logo">E<span class="gold">³</span></div>
+            <div class="preloader-line"></div>
+            <p class="preloader-text">Encouraging Excellence Early</p>
+        </div>
+    </div>
+
+    <!-- ===== NAVBAR ===== -->
+    <header class="navbar" id="navbar">
+        <div class="nav-container">
+            <a href="index.html" class="logo">E<span class="gold">³</span><span class="superscript">SME</span></a>
+            
+            <nav class="nav-links">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="solutions.html">Solutions</a>
+                <a href="industries.html">Industries</a>
+                <a href="case-studies.html">Case Studies</a>
+                <a href="insights.html">Insights</a>
+                <a href="contact.html" class="nav-cta active">Contact</a>
+            </nav>
+            
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== MOBILE NAV ===== -->
+    <div class="mobile-nav" id="mobileNav">
+        <div class="mobile-nav-inner">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="solutions.html">Solutions</a>
+            <a href="industries.html">Industries</a>
+            <a href="case-studies.html">Case Studies</a>
+            <a href="insights.html">Insights</a>
+            <a href="contact.html" class="mobile-cta active">Contact →</a>
+        </div>
+    </div>
+
+    <!-- ===== PAGE HERO ===== -->
+    <section class="page-hero">
+        <div class="page-hero-bg">
+        <div class="horizon-grid"></div>
+        <svg class="lattice-svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <line class="lattice-line" x1="61.3" y1="136.3" x2="366.0" y2="91.3" style="animation-delay:0.00s, 0.00s"/>
+    <line class="lattice-line soft" x1="368.0" y1="493.6" x2="550.6" y2="590.9" style="animation-delay:0.18s, 0.18s"/>
+    <line class="lattice-line soft" x1="366.0" y1="91.3" x2="601.2" y2="39.7" style="animation-delay:0.36s, 0.36s"/>
+    <line class="lattice-line soft" x1="601.2" y1="39.7" x2="780.2" y2="277.3" style="animation-delay:0.54s, 0.54s"/>
+    <line class="lattice-line" x1="1341.4" y1="183.0" x2="1133.1" y2="287.2" style="animation-delay:0.72s, 0.72s"/>
+    <line class="lattice-line soft" x1="767.7" y1="48.0" x2="780.2" y2="277.3" style="animation-delay:0.90s, 0.90s"/>
+    <line class="lattice-line soft" x1="601.2" y1="39.7" x2="767.7" y2="48.0" style="animation-delay:1.08s, 1.08s"/>
+    <line class="lattice-line soft" x1="808.8" y1="576.0" x2="1046.4" y2="608.9" style="animation-delay:1.26s, 1.26s"/>
+    <line class="lattice-line" x1="1134.9" y1="53.2" x2="1341.4" y2="183.0" style="animation-delay:1.44s, 1.44s"/>
+    <line class="lattice-line" x1="1123.2" y1="732.7" x2="1242.6" y2="814.0" style="animation-delay:1.62s, 1.62s"/>
+    <line class="lattice-line" x1="1134.9" y1="53.2" x2="1133.1" y2="287.2" style="animation-delay:1.80s, 1.80s"/>
+    <line class="lattice-line soft" x1="1046.4" y1="608.9" x2="1123.2" y2="732.7" style="animation-delay:1.98s, 1.98s"/>
+    <line class="lattice-line soft" x1="366.0" y1="91.3" x2="440.0" y2="266.1" style="animation-delay:0.00s, 0.00s"/>
+    <line class="lattice-line soft" x1="808.8" y1="576.0" x2="920.7" y2="727.3" style="animation-delay:0.18s, 0.18s"/>
+    <line class="lattice-line" x1="1046.4" y1="608.9" x2="920.7" y2="727.3" style="animation-delay:0.36s, 0.36s"/>
+    <circle class="lattice-node dim" cx="61.3" cy="136.3" r="3.1" style="animation-delay:0.00s"/>
+    <circle class="lattice-node dim" cx="366.0" cy="91.3" r="2.2" style="animation-delay:0.40s"/>
+    <circle class="lattice-node" cx="601.2" cy="39.7" r="2.2" style="animation-delay:0.80s"/>
+    <circle class="lattice-node dim" cx="767.7" cy="48.0" r="2.3" style="animation-delay:1.20s"/>
+    <circle class="lattice-node" cx="1134.9" cy="53.2" r="2.3" style="animation-delay:1.60s"/>
+    <circle class="lattice-node amber" cx="1341.4" cy="183.0" r="2.6" style="animation-delay:2.00s"/>
+    <circle class="lattice-node" cx="440.0" cy="266.1" r="2.7" style="animation-delay:2.40s"/>
+    <circle class="lattice-node" cx="780.2" cy="277.3" r="2.3" style="animation-delay:2.80s"/>
+    <circle class="lattice-node dim" cx="1133.1" cy="287.2" r="2.0" style="animation-delay:3.20s"/>
+    <circle class="lattice-node" cx="368.0" cy="493.6" r="2.5" style="animation-delay:0.00s"/>
+    <circle class="lattice-node dim" cx="550.6" cy="590.9" r="2.4" style="animation-delay:0.40s"/>
+    <circle class="lattice-node amber" cx="808.8" cy="576.0" r="2.7" style="animation-delay:0.80s"/>
+    <circle class="lattice-node" cx="1046.4" cy="608.9" r="3.1" style="animation-delay:1.20s"/>
+    <circle class="lattice-node" cx="132.5" cy="791.5" r="2.8" style="animation-delay:1.60s"/>
+    <circle class="lattice-node" cx="920.7" cy="727.3" r="2.6" style="animation-delay:2.00s"/>
+    <circle class="lattice-node" cx="1123.2" cy="732.7" r="2.7" style="animation-delay:2.40s"/>
+    <circle class="lattice-node" cx="1242.6" cy="814.0" r="2.8" style="animation-delay:2.80s"/>
+    </svg>
+        <div class="light-shaft shaft-1"></div>
+        <div class="light-shaft shaft-2"></div>
+        <div class="grain"></div>
+        <div class="hud-panel hud-1"><span class="hud-label">Response Time</span><span class="hud-value cyan-text">< 2hrs</span></div>
+        <div class="hud-panel hud-2"><span class="hud-label">WhatsApp</span><span class="hud-value amber-text">Live</span></div>
+        <div class="vignette"></div>
+    </div>
+        <div class="container">
+            <div class="page-hero-content">
+                <span class="page-hero-badge">✦ Connect With Us</span>
+                <h1 class="page-hero-title">Let's Build Something <span class="gold">Exceptional</span></h1>
+                <p class="page-hero-sub">
+                    Ready to transform your business with digital infrastructure, AI, and intelligent systems? Let's talk.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION: CONTACT ===== -->
+    <section class="section section-contact">
+        <div class="container">
+            <div class="contact-grid">
+                
+                <!-- ===== LEFT: CONTACT INFO ===== -->
+                <div class="contact-info">
+                    <h2>Get in <span class="gold">Touch</span></h2>
+                    <p class="contact-info-desc">
+                        We're here to help you build the digital infrastructure your business needs to grow.
+                        Reach out through any of the channels below.
+                    </p>
+
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <span class="contact-method-icon">📞</span>
+                            <div class="contact-method-content">
+                                <span class="contact-method-label">Phone / WhatsApp</span>
+                                <a href="https://wa.me/2347042776167" class="contact-method-value">+234 704 277 6167</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <span class="contact-method-icon">✉️</span>
+                            <div class="contact-method-content">
+                                <span class="contact-method-label">Email</span>
+                                <a href="mailto:encourageexcellenceearly@gmail.com" class="contact-method-value">encourageexcellenceearly@gmail.com</a>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <span class="contact-method-icon">📍</span>
+                            <div class="contact-method-content">
+                                <span class="contact-method-label">Location</span>
+                                <span class="contact-method-value">Opposite Juda Oil, Gwarinpa, Abuja, Nigeria</span>
+                            </div>
+                        </div>
+
+                        <div class="contact-method">
+                            <span class="contact-method-icon">🕐</span>
+                            <div class="contact-method-content">
+                                <span class="contact-method-label">Working Hours</span>
+                                <span class="contact-method-value">Mon – Fri: 9:00 AM – 6:00 PM (WAT)</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="contact-social">
+                        <span class="contact-social-label">Connect With Us</span>
+                        <div class="contact-social-icons">
+                            <a href="https://www.instagram.com/encourage.excellence.early" target="_blank" aria-label="Instagram" class="social-link">📸</a>
+                            <a href="https://web.facebook.com/profile.php?id=61570798894713" target="_blank" aria-label="Facebook" class="social-link">📘</a>
+                            <a href="https://tiktok.com/@yourpage" target="_blank" aria-label="TikTok" class="social-link">🎵</a>
+                            <a href="https://wa.me/2347042776167" target="_blank" aria-label="WhatsApp" class="social-link">💬</a>
+                            <a href="mailto:encourageexcellenceearly@gmail.com" target="_blank" aria-label="Email" class="social-link">✉️</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ===== RIGHT: CONTACT FORM ===== -->
+                <div class="contact-form">
+                    <h3>Send Us a <span class="gold">Message</span></h3>
+                    <p class="contact-form-desc">Fill in the form below and we'll get back to you within 24 hours.</p>
+
+                    <form id="contactForm" onsubmit="handleContactForm(event)">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Full Name *</label>
+                                <input type="text" id="contactName" placeholder="Your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address *</label>
+                                <input type="email" id="contactEmail" placeholder="your@email.com" required>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactPhone">Phone Number</label>
+                            <input type="tel" id="contactPhone" placeholder="+234 000 000 0000">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactService">Service of Interest</label>
+                            <select id="contactService">
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="ai-automation">AI Automation</option>
+                                <option value="web-applications">Web Applications</option>
+                                <option value="digital-packaging">Digital Packaging</option>
+                                <option value="business-intelligence">Business Intelligence</option>
+                                <option value="brand-systems">Brand Systems</option>
+                                <option value="custom-software">Custom Software</option>
+                                <option value="not-sure">Not Sure Yet</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="contactMessage">Your Message *</label>
+                            <textarea id="contactMessage" placeholder="Tell us about your project, idea, or challenge..." required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn-primary submit-btn">
+                            <span class="btn-text">Send Message</span>
+                            <span class="btn-arrow">→</span>
+                        </button>
+                    </form>
+
+                    <div class="form-success" id="formSuccess">
+                        <span class="success-icon">✓</span>
+                        <h4>Message Sent!</h4>
+                        <p>Thank you for reaching out to E³. We'll be in touch within 24 hours.</p>
+                        <p class="success-wa">
+                            <a href="https://wa.me/2347042776167" target="_blank">Prefer instant reply? Chat with us on WhatsApp →</a>
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION: MAP ===== -->
+    <section class="section section-map">
+        <div class="container">
+            <div class="map-wrapper">
+                <div class="map-header">
+                    <span class="section-label">Find Us</span>
+                    <h2 class="section-title">Visit Our <span class="gold">Office</span></h2>
+                    <p class="section-desc">We're located in Abuja, Nigeria — serving businesses globally.</p>
+                </div>
+                <div class="map-container">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.772415688853!2d7.422113!3d9.125355!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104e0c3d8b8b8b8b%3A0x0!2sOpposite%20Juda%20Oil%2C%20Gwarinpa%2C%20Abuja!5e0!3m2!1sen!2sng!4v1699999999" 
+                        width="100%" 
+                        height="400" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        title="E³ SME Location Map">
+                    </iframe>
+                    <div class="map-overlay-card">
+                        <span class="map-overlay-icon">📍</span>
+                        <div class="map-overlay-content">
+                            <h4>E³ SME Office</h4>
+                            <p>Opposite Juda Oil, Gwarinpa, Abuja, Nigeria</p>
+                            <a href="https://maps.google.com/?q=Opposite+Juda+Oil,+Gwarinpa,+Abuja,+Nigeria" target="_blank" class="map-direction-btn">
+                                Get Directions →
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SECTION: CTA ===== -->
+    <section class="section section-cta">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Build Your <span class="gold">Digital Future</span></h2>
+                <p>Let's discuss how we can help you grow with AI, automation, and intelligent systems.</p>
+                <a href="https://wa.me/2347042776167" target="_blank" class="btn-primary">
+                    <span class="btn-text">Chat on WhatsApp</span>
+                    <span class="btn-arrow">→</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="logo">E<span class="gold">³</span><span class="superscript">SME</span></a>
+                    <p>Encouraging Excellence Early — Building intelligent businesses for the digital age.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Pages</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About</a>
+                    <a href="solutions.html">Solutions</a>
+                    <a href="industries.html">Industries</a>
+                    <a href="case-studies.html">Case Studies</a>
+                    <a href="insights.html">Insights</a>
+                    <a href="contact.html">Contact</a>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <a href="https://wa.me/2347042776167">WhatsApp</a>
+                    <a href="mailto:encourageexcellenceearly@gmail.com">Email</a>
+                    <a href="https://www.instagram.com/encourage.excellence.early">Instagram</a>
+                    <a href="https://web.facebook.com/profile.php?id=61570798894713">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2026 E³ SME — Encouraging Excellence Early</p>
+                <p>Abuja, Nigeria · Serving Globally</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== WHATSAPP FLOATING ===== -->
+    <div class="wa-float">
+        <a href="https://wa.me/2347042776167" target="_blank" aria-label="Chat on WhatsApp">
+            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+        </a>
+    </div>
+
+    <!-- ===== SINGLE JS ===== -->
+    <script src="assets/script.js"></script>
+</body>
+</html>

@@ -1,357 +1,195 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-    <meta name="description" content="E³ Insights — Thought leadership on AI, Business Growth, Branding, Web Development, Automation, and Digital Marketing.">
-    <title>Insights — E³</title>
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-    
-    <link rel="stylesheet" href="assets/style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Insights — E³ Technologies | Digital Strategy for African Businesses</title>
+<meta name="description" content="Expert insights on AI automation, web development, mobile apps, and building digital businesses that win in Nigeria and across Africa.">
+<link rel="canonical" href="https://e3technologies.com/insights.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
+<div class="scroll-progress-line" id="scrollProgress"></div>
+<div id="preloader"><div class="e3-loader"><svg viewBox="0 0 60 60" fill="none"><path class="loader-line line-1" d="M30 5 L52 45 L8 45 Z" stroke="#06B6D4" stroke-width="2"/><path class="loader-line line-2" d="M30 15 L44 40 L16 40 Z" stroke="#D97706" stroke-width="2"/><circle class="loader-line line-3" cx="30" cy="30" r="6" stroke="#7C3AED" stroke-width="2"/></svg></div><span class="e3-wordmark">E³ TECHNOLOGIES</span></div>
 
-    <!-- ===== PRELOADER ===== -->
-    <div class="preloader" id="preloader">
-        <div class="preloader-content">
-            <div class="preloader-logo">E<span class="gold">³</span></div>
-            <div class="preloader-line"></div>
-            <p class="preloader-text">Encouraging Excellence Early</p>
+<header id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo" aria-label="E³ Technologies Home"><span class="logo-mark"><svg viewBox="0 0 32 32" fill="none"><path d="M16 3 L28 24 L4 24 Z" stroke="url(#ng)" stroke-width="2"/><defs><linearGradient id="ng" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#06B6D4"/><stop offset=".5" stop-color="#2563EB"/><stop offset="1" stop-color="#D97706"/></linearGradient></defs></svg></span><span>E³ <em>Technologies</em></span></a>
+    <nav class="nav-links" aria-label="Main navigation"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">What We Build</a><a href="portfolio.html">Our Work</a><a href="industries.html">Industries</a><a href="insights.html" class="active">Insights</a></nav>
+    <a href="contact.html" class="nav-cta">Let's Build Together</a>
+    <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu"><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">What We Build</a><a href="portfolio.html">Our Work</a><a href="industries.html">Industries</a><a href="insights.html">Insights</a><a href="contact.html">Contact</a><a href="contact.html" class="mm-cta">Let's Build Together →</a></div>
+</header>
+
+<section class="page-hero page-hero-insights">
+  <div class="page-hero-slides"><div class="page-hero-slide active"></div></div>
+  <div class="hero-overlay"></div>
+  <div class="page-hero-content">
+    <span class="page-hero-label">✦ E³ Insights</span>
+    <h1 class="page-hero-title">Digital Strategy<br><em>for African Businesses.</em></h1>
+    <p class="page-hero-sub">Practical insights on AI, web development, mobile apps, and building digital businesses that win in Nigeria and across the continent.</p>
+  </div>
+</section>
+
+<div class="category-bar-wrap">
+  <div class="category-bar">
+    <button class="category-btn active" data-category="all">All Topics</button>
+    <button class="category-btn" data-category="ai">🤖 AI &amp; Automation</button>
+    <button class="category-btn" data-category="web">🌐 Web Development</button>
+    <button class="category-btn" data-category="mobile">📱 Mobile Apps</button>
+    <button class="category-btn" data-category="strategy">🎯 Digital Strategy</button>
+  </div>
+</div>
+
+<section class="insights-grid-section">
+  <div class="container">
+    <div class="insights-grid stagger-parent" id="articleGrid">
+
+      <article class="article-card stagger-child" data-category="ai">
+        <div class="article-thumb thumb-ai">
+          <img src="https://images.unsplash.com/photo-1677442135703-1787eea5ce01?w=600&q=80&auto=format&fit=crop" alt="AI automation technology visualization" loading="lazy" width="600" height="280">
+          <div class="article-thumb-overlay"></div>
         </div>
+        <div class="article-body">
+          <span class="article-category">AI &amp; Automation</span>
+          <h3>How Nigerian SMEs Are Using AI to Compete With Bigger Businesses</h3>
+          <a href="contact.html?service=ai" class="article-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="article-card stagger-child" data-category="web">
+        <div class="article-thumb thumb-web">
+          <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80&auto=format&fit=crop" alt="Website development digital business Nigeria" loading="lazy" width="600" height="280">
+          <div class="article-thumb-overlay"></div>
+        </div>
+        <div class="article-body">
+          <span class="article-category">Web Development</span>
+          <h3>Why Your Nigerian Business Needs More Than a WhatsApp Number in 2026</h3>
+          <a href="contact.html?service=website" class="article-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="article-card stagger-child" data-category="mobile">
+        <div class="article-thumb thumb-mobile">
+          <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&q=80&auto=format&fit=crop" alt="Mobile app development iOS Android smartphone" loading="lazy" width="600" height="280">
+          <div class="article-thumb-overlay"></div>
+        </div>
+        <div class="article-body">
+          <span class="article-category">Mobile Apps</span>
+          <h3>iOS vs Android — Which Platform Should Your Business Launch On First?</h3>
+          <a href="contact.html?service=mobile" class="article-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="article-card stagger-child" data-category="web">
+        <div class="article-thumb thumb-web">
+          <img src="https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?w=600&q=80&auto=format&fit=crop" alt="African business professional working on website digital" loading="lazy" width="600" height="280">
+          <!-- REPLACE: nappy.co "Black business professional laptop" -->
+          <div class="article-thumb-overlay"></div>
+        </div>
+        <div class="article-body">
+          <span class="article-category">Web Development</span>
+          <h3>The 5 Things Every Nigerian Business Website Must Have in 2026</h3>
+          <a href="contact.html?service=website" class="article-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="article-card stagger-child" data-category="ai">
+        <div class="article-thumb thumb-automation">
+          <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80&auto=format&fit=crop" alt="WhatsApp business automation Nigeria SME" loading="lazy" width="600" height="280">
+          <div class="article-thumb-overlay"></div>
+        </div>
+        <div class="article-body">
+          <span class="article-category">Business Automation</span>
+          <h3>How to Automate Your Customer Follow-Ups Using WhatsApp AI</h3>
+          <a href="contact.html?service=ai" class="article-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="article-card stagger-child" data-category="strategy">
+        <div class="article-thumb thumb-strategy">
+          <img src="https://images.unsplash.com/photo-1550751827-4bd374c3f58b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="African entrepreneur digital strategy business growth" loading="lazy" width="600" height="280">
+          <!-- REPLACE: nappy.co "Black entrepreneur confident professional" -->
+          <div class="article-thumb-overlay"></div>
+        </div>
+        <div class="article-body">
+          <span class="article-category">Digital Strategy</span>
+          <h3>Why Africa's Digital Economy Is Growing Faster Than Any Other Region</h3>
+          <a href="about.html" class="article-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="article-card stagger-child" data-category="strategy">
+        <div class="article-thumb thumb-strategy">
+          <img src="https://images.unsplash.com/photo-1697577418970-95d99b5a55cf?q=80&w=996&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Nigerian business digital sales funnel strategy" loading="lazy" width="600" height="280">
+          <div class="article-thumb-overlay"></div>
+        </div>
+        <div class="article-body">
+          <span class="article-category">Digital Strategy</span>
+          <h3>From WhatsApp Chat to Paying Customer — Building a Digital Sales Funnel</h3>
+          <a href="contact.html" class="article-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="article-card stagger-child" data-category="mobile">
+        <div class="article-thumb thumb-mobile">
+          <img src="https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=600&q=80&auto=format&fit=crop" alt="React Native cross-platform mobile app development" loading="lazy" width="600" height="280">
+          <div class="article-thumb-overlay"></div>
+        </div>
+        <div class="article-body">
+          <span class="article-category">Mobile Apps</span>
+          <h3>What Is React Native and Why Is It the Best Choice for African App Builders?</h3>
+          <a href="contact.html?service=mobile" class="article-link">Read More →</a>
+        </div>
+      </article>
+
+      <article class="article-card stagger-child" data-category="web">
+        <div class="article-thumb thumb-web">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80&auto=format&fit=crop" alt="African business owners discussing digital strategy website" loading="lazy" width="600" height="280">
+          <!-- REPLACE: nappy.co "Black professionals meeting strategy" -->
+          <div class="article-thumb-overlay"></div>
+        </div>
+        <div class="article-body">
+          <span class="article-category">Web Development</span>
+          <h3>The Real Cost of Not Having a Website as a Nigerian Business Owner</h3>
+          <a href="contact.html?service=website" class="article-link">Read More →</a>
+        </div>
+      </article>
+
     </div>
+  </div>
+</section>
 
-    <!-- ===== NAVBAR ===== -->
-    <header class="navbar" id="navbar">
-        <div class="nav-container">
-            <a href="index.html" class="logo">E<span class="gold">³</span><span class="superscript">SME</span></a>
-            
-            <nav class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="about.html">About</a>
-                <a href="solutions.html">Solutions</a>
-                <a href="industries.html">Industries</a>
-                <a href="case-studies.html">Case Studies</a>
-                <a href="insights.html" class="active">Insights</a>
-                <a href="contact.html" class="nav-cta">Contact</a>
-            </nav>
-            
-            <button class="hamburger" id="hamburger" aria-label="Menu">
-                <span></span><span></span><span></span>
-            </button>
-        </div>
-    </header>
+<section class="newsletter-section reveal-section">
+  <div class="container">
+    <h2>Stay Ahead.</h2>
+    <p>Get practical insights on AI, technology, and digital business strategy for African markets — delivered to your inbox.</p>
+    <form class="newsletter-form" id="newsletterForm">
+      <input type="email" id="newsletterEmail" placeholder="Your email address" required>
+      <button type="submit">Subscribe →</button>
+    </form>
+    <p class="newsletter-success" id="newsletterSuccess">✓ You're subscribed! Watch your inbox for our next insight.</p>
+  </div>
+</section>
 
-    <!-- ===== MOBILE NAV ===== -->
-    <div class="mobile-nav" id="mobileNav">
-        <div class="mobile-nav-inner">
-            <a href="index.html">Home</a>
-            <a href="about.html">About</a>
-            <a href="solutions.html">Solutions</a>
-            <a href="industries.html">Industries</a>
-            <a href="case-studies.html">Case Studies</a>
-            <a href="insights.html" class="active">Insights</a>
-            <a href="contact.html" class="mobile-cta">Contact →</a>
-        </div>
-    </div>
+<div class="article-modal-backdrop" id="articleModalBackdrop"></div>
+<div class="article-modal" id="articleModal" role="dialog" aria-modal="true">
+  <div class="article-modal-panel">
+    <button class="article-modal-close" id="articleModalClose" aria-label="Close"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M18 6L6 18M6 6l12 12"/></svg></button>
+    <h3 id="articleModalTitle"></h3>
+    <p>This full article is coming soon — we're building out the E³ Insights library to share real, practical strategy for African businesses. In the meantime, the topic above touches exactly the kind of project our team builds every day.</p>
+    <a href="contact.html" class="btn-outline">Talk to Us About This →</a>
+  </div>
+</div>
 
-    <!-- ===== PAGE HERO ===== -->
-    <section class="page-hero">
-        <div class="page-hero-bg">
-        <div class="horizon-grid"></div>
-        <svg class="lattice-svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-    <line class="lattice-line soft" x1="366.4" y1="366.2" x2="609.0" y2="385.6" style="animation-delay:0.00s, 0.00s"/>
-    <line class="lattice-line soft" x1="170.7" y1="373.7" x2="291.8" y2="514.8" style="animation-delay:0.18s, 0.18s"/>
-    <line class="lattice-line soft" x1="891.0" y1="366.7" x2="915.8" y2="576.4" style="animation-delay:0.36s, 0.36s"/>
-    <line class="lattice-line" x1="366.4" y1="366.2" x2="291.8" y2="514.8" style="animation-delay:0.54s, 0.54s"/>
-    <line class="lattice-line soft" x1="291.8" y1="514.8" x2="384.3" y2="818.7" style="animation-delay:0.72s, 0.72s"/>
-    <line class="lattice-line soft" x1="170.7" y1="373.7" x2="366.4" y2="366.2" style="animation-delay:0.90s, 0.90s"/>
-    <line class="lattice-line" x1="1056.7" y1="803.5" x2="1335.0" y2="722.9" style="animation-delay:1.08s, 1.08s"/>
-    <line class="lattice-line" x1="891.0" y1="366.7" x2="1106.1" y2="540.5" style="animation-delay:1.26s, 1.26s"/>
-    <line class="lattice-line soft" x1="915.8" y1="576.4" x2="1106.1" y2="540.5" style="animation-delay:1.44s, 1.44s"/>
-    <line class="lattice-line soft" x1="1123.6" y1="92.5" x2="1251.6" y2="384.8" style="animation-delay:1.62s, 1.62s"/>
-    <line class="lattice-line" x1="1251.6" y1="384.8" x2="1106.1" y2="540.5" style="animation-delay:1.80s, 1.80s"/>
-    <line class="lattice-line soft" x1="915.8" y1="576.4" x2="1056.7" y2="803.5" style="animation-delay:1.98s, 1.98s"/>
-    <circle class="lattice-node" cx="560.0" cy="33.8" r="2.7" style="animation-delay:0.00s"/>
-    <circle class="lattice-node" cx="1123.6" cy="92.5" r="3.0" style="animation-delay:0.40s"/>
-    <circle class="lattice-node" cx="170.7" cy="373.7" r="2.5" style="animation-delay:0.80s"/>
-    <circle class="lattice-node" cx="366.4" cy="366.2" r="2.9" style="animation-delay:1.20s"/>
-    <circle class="lattice-node dim" cx="609.0" cy="385.6" r="2.5" style="animation-delay:1.60s"/>
-    <circle class="lattice-node dim" cx="891.0" cy="366.7" r="2.1" style="animation-delay:2.00s"/>
-    <circle class="lattice-node" cx="1251.6" cy="384.8" r="2.5" style="animation-delay:2.40s"/>
-    <circle class="lattice-node" cx="291.8" cy="514.8" r="2.4" style="animation-delay:2.80s"/>
-    <circle class="lattice-node dim" cx="915.8" cy="576.4" r="3.0" style="animation-delay:3.20s"/>
-    <circle class="lattice-node dim" cx="1106.1" cy="540.5" r="3.1" style="animation-delay:0.00s"/>
-    <circle class="lattice-node amber" cx="384.3" cy="818.7" r="2.2" style="animation-delay:0.40s"/>
-    <circle class="lattice-node" cx="1056.7" cy="803.5" r="2.8" style="animation-delay:0.80s"/>
-    <circle class="lattice-node" cx="1335.0" cy="722.9" r="2.5" style="animation-delay:1.20s"/>
-    </svg>
-        <div class="light-shaft shaft-1"></div>
-        <div class="light-shaft shaft-2"></div>
-        <div class="grain"></div>
-        <div class="hud-panel hud-1"><span class="hud-label">Articles</span><span class="hud-value cyan-text">Growing</span></div>
-        <div class="hud-panel hud-2"><span class="hud-label">Topics</span><span class="hud-value">AI · Web · Brand</span></div>
-        <div class="vignette"></div>
-    </div>
-        <div class="container">
-            <div class="page-hero-content">
-                <span class="page-hero-badge">✦ Insights</span>
-                <h1 class="page-hero-title">Thought <span class="gold">Leadership</span> for the Digital Age</h1>
-                <p class="page-hero-sub">
-                    Insights on AI, business growth, branding, and the future of digital infrastructure.
-                </p>
-            </div>
-        </div>
-    </section>
+<footer class="footer"><div class="footer-inner"><div class="footer-brand"><a href="index.html" class="footer-logo"><svg viewBox="0 0 32 32" fill="none"><path d="M16 3 L28 24 L4 24 Z" stroke="url(#fg)" stroke-width="2"/><defs><linearGradient id="fg" x1="0" y1="0" x2="32" y2="32"><stop stop-color="#06B6D4"/><stop offset=".5" stop-color="#2563EB"/><stop offset="1" stop-color="#D97706"/></linearGradient></defs></svg><span>E³ <em>Technologies</em></span></a><p>Africa's AI-powered technology builder. Custom websites, mobile apps, AI systems, and intelligent software for businesses and founders across the continent.</p><div class="footer-socials"><a href="https://instagram.com" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><rect x="2" y="2" width="20" height="20" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1"/></svg></a><a href="https://facebook.com" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg></a><a href="https://wa.me/2347042776167" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><path d="M21 11.5a8.38 8.38 0 01-.9 3.8 8.5 8.5 0 01-7.6 4.7 8.38 8.38 0 01-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 01-.9-3.8 8.5 8.5 0 014.7-7.6 8.38 8.38 0 013.8-.9h.5a8.48 8.48 0 018 8v.5z"/></svg></a></div></div><div class="footer-links"><div class="footer-col"><h5>Pages</h5><a href="index.html">Home</a><a href="about.html">About</a><a href="services.html">What We Build</a><a href="portfolio.html">Our Work</a><a href="industries.html">Industries</a><a href="insights.html">Insights</a><a href="contact.html">Contact</a></div><div class="footer-col"><h5>Services</h5><a href="services.html#web">Website Design</a><a href="services.html#mobile">iOS &amp; Android Apps</a><a href="services.html#ai">AI Automation</a><a href="services.html#software">Custom Software</a></div><div class="footer-col"><h5>Connect</h5><a href="https://wa.me/2347042776167" target="_blank" rel="noopener">+234 704 277 6167</a><a href="mailto:encourageexcellenceearly@gmail.com">encourageexcellenceearly@gmail.com</a><span>Gwarinpa, Abuja, Nigeria</span></div></div></div><div class="footer-bottom"><span>© 2026 E³ Technologies — Encouraging Excellence Early</span><span>Abuja, Nigeria · Building Africa's Digital Future</span></div></footer>
 
-    <!-- ===== SECTION: FEATURED ARTICLE ===== -->
-    <section class="section section-featured">
-        <div class="container">
-            <div class="featured-article">
-                <span class="featured-tag">Featured</span>
-                <div class="featured-content">
-                    <span class="featured-category">AI & Automation</span>
-                    <h2>The Future of AI in African Business</h2>
-                    <p class="featured-excerpt">
-                        How artificial intelligence is transforming SMEs across the continent — and what it means for the future of work, growth, and competition.
-                    </p>
-                    <div class="featured-meta">
-                        <span class="featured-date">June 2026</span>
-                        <span class="featured-readtime">5 min read</span>
-                    </div>
-                    <a href="#" class="btn-primary" onclick="alert('Full article coming soon. Stay tuned!')">
-                        <span class="btn-text">Read Article</span>
-                        <span class="btn-arrow">→</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== SECTION: CATEGORY FILTER ===== -->
-    <section class="section section-categories">
-        <div class="container">
-            <div class="category-filter">
-                <button class="category-btn active" data-category="all">All</button>
-                <button class="category-btn" data-category="ai">AI & Automation</button>
-                <button class="category-btn" data-category="growth">Business Growth</button>
-                <button class="category-btn" data-category="branding">Branding</button>
-                <button class="category-btn" data-category="web">Web Development</button>
-                <button class="category-btn" data-category="marketing">Digital Marketing</button>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== SECTION: ARTICLES GRID ===== -->
-    <section class="section section-articles">
-        <div class="container">
-            <div class="articles-grid" id="articlesGrid">
-
-                <!-- Article 1 -->
-                <article class="article-card" data-category="ai">
-                    <span class="article-category">AI & Automation</span>
-                    <h3>How to Automate Your Business Operations</h3>
-                    <p class="article-excerpt">A step-by-step guide to identifying automation opportunities and implementing AI-powered workflows in your SME.</p>
-                    <div class="article-meta">
-                        <span class="article-date">June 2026</span>
-                        <span class="article-readtime">4 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-                <!-- Article 2 -->
-                <article class="article-card" data-category="branding">
-                    <span class="article-category">Branding</span>
-                    <h3>Why Branding Matters More Than Ever</h3>
-                    <p class="article-excerpt">In a crowded digital marketplace, strong branding is the difference between being noticed and being ignored.</p>
-                    <div class="article-meta">
-                        <span class="article-date">May 2026</span>
-                        <span class="article-readtime">3 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-                <!-- Article 3 -->
-                <article class="article-card" data-category="growth">
-                    <span class="article-category">Business Growth</span>
-                    <h3>Scaling Your SME in the Digital Economy</h3>
-                    <p class="article-excerpt">Strategies for using digital infrastructure to scale your business without losing quality or customer trust.</p>
-                    <div class="article-meta">
-                        <span class="article-date">May 2026</span>
-                        <span class="article-readtime">6 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-                <!-- Article 4 -->
-                <article class="article-card" data-category="web">
-                    <span class="article-category">Web Development</span>
-                    <h3>Modern Web Development for SMEs</h3>
-                    <p class="article-excerpt">What modern web development looks like in 2026 — and why your business needs a future-proof digital presence.</p>
-                    <div class="article-meta">
-                        <span class="article-date">April 2026</span>
-                        <span class="article-readtime">4 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-                <!-- Article 5 -->
-                <article class="article-card" data-category="marketing">
-                    <span class="article-category">Digital Marketing</span>
-                    <h3>Building a Digital Marketing Engine</h3>
-                    <p class="article-excerpt">How to create a sustainable digital marketing system that generates leads and builds brand awareness consistently.</p>
-                    <div class="article-meta">
-                        <span class="article-date">April 2026</span>
-                        <span class="article-readtime">5 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-                <!-- Article 6 -->
-                <article class="article-card" data-category="ai">
-                    <span class="article-category">AI & Automation</span>
-                    <h3>AI Chatbots for Customer Engagement</h3>
-                    <p class="article-excerpt">How AI-powered chatbots are revolutionizing customer support and engagement for businesses of all sizes.</p>
-                    <div class="article-meta">
-                        <span class="article-date">March 2026</span>
-                        <span class="article-readtime">3 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-                <!-- Article 7 -->
-                <article class="article-card" data-category="growth">
-                    <span class="article-category">Business Growth</span>
-                    <h3>Data-Driven Decision Making for SMEs</h3>
-                    <p class="article-excerpt">How to use business intelligence and analytics to make smarter decisions and drive sustainable growth.</p>
-                    <div class="article-meta">
-                        <span class="article-date">March 2026</span>
-                        <span class="article-readtime">5 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-                <!-- Article 8 -->
-                <article class="article-card" data-category="branding">
-                    <span class="article-category">Branding</span>
-                    <h3>Building a Premium Brand Identity</h3>
-                    <p class="article-excerpt">The elements of a luxury brand identity and how to position your business for premium perception.</p>
-                    <div class="article-meta">
-                        <span class="article-date">February 2026</span>
-                        <span class="article-readtime">4 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-                <!-- Article 9 -->
-                <article class="article-card" data-category="web">
-                    <span class="article-category">Web Development</span>
-                    <h3>The Rise of AI-Powered Websites</h3>
-                    <p class="article-excerpt">How AI is transforming web development — from intelligent design to personalized user experiences.</p>
-                    <div class="article-meta">
-                        <span class="article-date">February 2026</span>
-                        <span class="article-readtime">4 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-                <!-- Article 10 -->
-                <article class="article-card" data-category="marketing">
-                    <span class="article-category">Digital Marketing</span>
-                    <h3>Social Media Strategy for SMEs</h3>
-                    <p class="article-excerpt">A framework for building a social media presence that drives real business results — not just likes.</p>
-                    <div class="article-meta">
-                        <span class="article-date">January 2026</span>
-                        <span class="article-readtime">5 min read</span>
-                    </div>
-                    <a href="#" class="article-link" onclick="alert('Full article coming soon. Stay tuned!')">Read More →</a>
-                </article>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== SECTION: NEWSLETTER ===== -->
-    <section class="section section-newsletter">
-        <div class="container">
-            <div class="newsletter-content">
-                <div class="newsletter-header">
-                    <span class="section-label">Stay Informed</span>
-                    <h2 class="section-title">Subscribe to <span class="gold">E³ Insights</span></h2>
-                    <p class="section-desc">Get the latest insights on AI, business growth, and digital transformation delivered to your inbox.</p>
-                </div>
-                <form class="newsletter-form" id="newsletterForm" onsubmit="handleNewsletter(event)">
-                    <input type="email" id="newsletterEmail" placeholder="Enter your email address" required>
-                    <button type="submit" class="btn-primary">
-                        <span class="btn-text">Subscribe</span>
-                        <span class="btn-arrow">→</span>
-                    </button>
-                </form>
-                <p class="newsletter-note">No spam. Unsubscribe anytime. <span class="gold">100% privacy.</span></p>
-                <div class="newsletter-success" id="newsletterSuccess">
-                    ✓ Thank you for subscribing! Check your inbox for confirmation.
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== SECTION: CTA ===== -->
-    <section class="section section-cta">
-        <div class="container">
-            <div class="cta-content">
-                <h2>Ready to Build Your <span class="gold">Digital Future</span></h2>
-                <p>Let's discuss how we can help you grow with AI, automation, and intelligent systems.</p>
-                <a href="contact.html" class="btn-primary">
-                    <span class="btn-text">Start Your Project</span>
-                    <span class="btn-arrow">→</span>
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- ===== FOOTER ===== -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-grid">
-                <div class="footer-brand">
-                    <a href="index.html" class="logo">E<span class="gold">³</span><span class="superscript">SME</span></a>
-                    <p>Encouraging Excellence Early — Building intelligent businesses for the digital age.</p>
-                </div>
-                <div class="footer-col">
-                    <h4>Pages</h4>
-                    <a href="index.html">Home</a>
-                    <a href="about.html">About</a>
-                    <a href="solutions.html">Solutions</a>
-                    <a href="industries.html">Industries</a>
-                    <a href="case-studies.html">Case Studies</a>
-                    <a href="insights.html">Insights</a>
-                    <a href="contact.html">Contact</a>
-                </div>
-                <div class="footer-col">
-                    <h4>Connect</h4>
-                    <a href="https://wa.me/2347042776167">WhatsApp</a>
-                    <a href="mailto:encourageexcellenceearly@gmail.com">Email</a>
-                    <a href="https://www.instagram.com/encourage.excellence.early">Instagram</a>
-                    <a href="https://web.facebook.com/profile.php?id=61570798894713">Facebook</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>© 2026 E³ SME — Encouraging Excellence Early</p>
-                <p>Abuja, Nigeria · Serving Globally</p>
-            </div>
-        </div>
-    </footer>
-
-    <!-- ===== WHATSAPP FLOATING ===== -->
-    <div class="wa-float">
-        <a href="https://wa.me/2347042776167" target="_blank" aria-label="Chat on WhatsApp">
-            <svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
-        </a>
-    </div>
-
-    <!-- ===== SINGLE JS ===== -->
-    <script src="assets/script.js"></script>
+<a href="https://wa.me/2347042776167?text=Hi%20E%C2%B3%20Technologies%2C%20I%27d%20like%20to%20discuss%20a%20project." class="wa-float" target="_blank" rel="noopener" aria-label="Chat with E³ on WhatsApp"><svg viewBox="0 0 24 24" fill="white" width="28" height="28"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91C21.91 6.45 17.5 2 12.04 2zm5.79 14.1c-.24.68-1.19 1.25-1.95 1.41-.52.11-1.2.2-3.49-.75-2.93-1.21-4.81-4.17-4.96-4.36-.14-.2-1.19-1.58-1.19-3.02s.75-2.15 1.02-2.44c.27-.3.59-.37.78-.37.2 0 .39 0 .56.01.18.01.42-.07.65.5.24.58.81 2.01.88 2.16.07.15.12.32.02.52-.1.2-.15.32-.3.49-.15.17-.31.39-.44.52-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.48.13.65-.08.17-.2.74-.86.94-1.16.2-.3.39-.25.66-.15.27.1 1.7.8 1.99.95.3.15.49.22.56.34.07.13.07.74-.17 1.42z"/></svg></a>
+<div class="mobile-sticky-cta" id="mobileStickyCta"><a href="contact.html" class="msc-primary">Start a Project →</a><a href="https://wa.me/2347042776167" class="msc-wa" target="_blank" rel="noopener">💬 WhatsApp</a></div>
+<script src="assets/app.js"></script>
 </body>
 </html>
